@@ -29,4 +29,4 @@
 
 - Apply the best opsec tactics
 
-- don't be stupid
+- don't be stupid.
