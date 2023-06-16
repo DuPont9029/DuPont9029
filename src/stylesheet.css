@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css?family=Signika-Negative:300,400&display=swap");
+
+
+body {
+  font-family: "Signika Negative", sans-serif;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .grid-item {
+    background-color: #e0e0e0;
+    padding: 20px;
+    /* Imposta altezza uguale alla larghezza per elementi quadrati */
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+  }
+
+  .grid-item > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  /* Media query per tablet */
+  @media (min-width: 768px) {
+    .grid-container {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  /* Media query per desktop */
+  @media (min-width: 1024px) {
+    .grid-container {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+  body {
+    background-color: black;
+  }
+
+
+  .titlex {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+
+
+.destra {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/*--------------------------------------------------------EQU2G --------------------------------------------------*/
+
+/*-------------------------------------------------------GITHUB HEADER-----------------------------------------------------*/
+
+
+
+.class {
+  width: 40px;
+  height: 40px;
+  padding-left: 7px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.centro {
+  text-align: center;
+}
+
+
+.title {
+  text-decoration: none;
+  color: black;
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+
+
+/*-----------------------------------------------IMGSLIDE---------------------------------------------------*/
+.slideshow {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.slideshow img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 4s ease-in-out;
+}
+
+.slideshow img.active {
+  opacity: 1;
+}
+
+
+
+/*
+.slide-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+
+.slide-title {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+*/
+
+.slide-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.grid-item:hover .slide-overlay {
+  opacity: 1;
+}
+
+.slide-title {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+  text-align: center;
+  z-index: 2;
+}
+
+.slide-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.grid-item:hover .slide-text {
+  opacity: 1;
+}
+
+
+
+.grid-item .slideshow img {
+  transition: filter 0.3s;
+}
+
+.grid-item:hover .slideshow img {
+  filter: brightness(0.4) opacity(1);
+}
+
+.grid-item .slideshow img:hover {
+  filter: brightness(1) opacity(1);
+}
+
+/*-----------------------------------------------IMGSLIDE---------------------------------------------------*/
+
+/*-----------------------------------------------SCHEDA INFORMATIVA---------------------------------------------------*/
+
+.grid-container {
+  position: relative;
+}
+
+.grid-item {
+  position: relative;
+  z-index: 1;
+}
+
+.tooltip {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  word-wrap: break-word;
+  text-align: center;
+  padding: 10px;
+}
+
+
+@media (max-width: 679px) {
+  .slide-text {
+    font-size: calc(3vw + 0.1vh);
+  }
+}
+
+@media (min-width: 520px) {
+  .slide-text {
+    font-size: calc(0.8vw + 0.8vh);
+  }
+}
+
+@media (max-width: 480px) {
+  .slide-text {
+    font-size: calc(0.8vw + 0.8vh);
+  }
+}
+
+@media (max-width: 320px) {
+  .slide-text {
+    font-size: calc(0.6vw + 0.6vh);
+  }
+}
+
+@media (max-width: 240px) {
+  .slide-text {
+    font-size: calc(0.4vw + 0.4vh);
+  }
+}
+
+@media (max-width: 160px) {
+  .slide-text {
+    font-size: calc(0.3vw + 0.1vh);
+  }
+}
+
+@media (max-width: 150px) {
+  .slide-text {
+    font-size: calc(0.3vw + 0.1vh);
+  }
+}
+
+/*------------------------------------------------ABOUT ME----------------------------------------------------*/
+
+.about-me {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #212020;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.about-me h2 {
+  color: #333333;
+}
+
+.about-me p {
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+.about-me ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.about-me li {
+  margin-bottom: 10px;
+}
+
+.about-me li i {
+  margin-right: 5px;
+  color: #555555;
+}
