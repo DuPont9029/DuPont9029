@@ -243,7 +243,7 @@ a {
 
 @media (min-width: 520px) {
   .slide-text {
-    font-size: calc(0.8vw + 0.8vh);
+    font-size: calc(0.7vw + 0.7vh);
   }
 }
 
