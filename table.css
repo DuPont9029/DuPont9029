@@ -11,7 +11,7 @@
     padding: 20px;
     /* Imposta altezza uguale alla larghezza per elementi quadrati */
     height: 0;
-    padding-bottom: 100%;
+    padding-bottom: 100#;
     position: relative;
   }
 
@@ -24,14 +24,14 @@
   }
 
   /* Media query per tablet */
-  @media (min-width: 768px) {
+  #media (min-width: 768px) {
     .grid-container {
       grid-template-columns: 1fr 1fr;
     }
   }
 
   /* Media query per desktop */
-  @media (min-width: 1024px) {
+  #media (min-width: 1024px) {
     .grid-container {
       grid-template-columns: 1fr 1fr 1fr;
     }
