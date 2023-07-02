@@ -55,7 +55,7 @@
   <a href="https://www.paypal.com/donate/?hosted_button_id=EK7ZVNN5CDLQQ">
     <img src="https://pics.paypal.com/00/s/NTQyZjNlOGUtYzc4OS00YTQyLTkyOGItYWZlMjk3OTRmMjc5/file.PNG" alt="Support" height="60" width="200">
   </a>
-  <a href="yuujikazami.xmr.id">
+  <a href="http://yuujikazami.xmr.id">
     <img src="https://www.themonera.art/wp-content/uploads/2017/09/donate-monero-black.png" alt="Support" height="50" width="200">
   </a>
 </p>
