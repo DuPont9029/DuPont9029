@@ -1,4 +1,9 @@
-<h1 align="center">Hi 👋, I'm DuPont9029</h1>
+<h1 align="center">Hi 👋, I'm DuPont
+  <img src="https://rule34.xxx/counter/9.gif" align="center">
+  <img src="https://rule34.xxx/counter/0.gif" align="center">
+  <img src="https://rule34.xxx/counter/2.gif" align="center">
+  <img src="https://rule34.xxx/counter/9.gif" align="center">
+</h1>
 <h3 align="center">A passionate frontend developer from Italy</h3> <br>
 
 
@@ -20,13 +25,13 @@
 
 <div align="center">
   <ul style="text-align: center; list-style-position: inside;">
-    <li>🔭 I’m currently working on <strong>A scraper for my school site</strong></li>
-    <li>🌱 I’m currently learning <strong>Ractjs and React Native</strong></li>
-    <li>👯 I’m looking to collaborate on <strong>the scraper</strong></li>
-    <li>🤝 I’m looking for help with <strong>the scraper</strong></li>
-    <li>👨‍💻 All of my projects are available at <a href="https://dupont9029.github.io/DuPont9029/">https://dupont9029.github.io/DuPont9029/</a></li>
-    <li>📫 How to reach me <strong>yuujikazami@paranoici.org</strong></li>
-    <li>⚡ Fun fact <strong>Javascript was created in 10 days</strong></li>
+    <h3>🔭 I’m currently working on <strong>A scraper for my school site</strong></h3>
+    <h3>🌱 I’m currently learning <strong>Ractjs and React Native</strong></h3>
+    <h3>👯 I’m looking to collaborate on <strong>the scraper</strong></h3>
+    <h3>🤝 I’m looking for help with <strong>the scraper</strong></h3>
+    <h3>👨‍💻 All of my projects are available at <a href="https://dupont9029.github.io/DuPont9029/">https://dupont9029.github.io/DuPont9029/</a></h3>
+    <h3>📫 How to reach me <strong>yuujikazami@paranoici.org</strong></h3>
+    <h3>⚡ Fun fact <strong>Javascript was created in 10 days</strong></h3>
   </ul>
 </div> 
 
@@ -57,7 +62,7 @@
     <img src="https://pics.paypal.com/00/s/NTQyZjNlOGUtYzc4OS00YTQyLTkyOGItYWZlMjk3OTRmMjc5/file.PNG" alt="Support" height="60" width="200">
   </a>
   <a href="http://yuujikazami.xmr.id">
-    <img src="https://www.themonera.art/wp-content/uploads/2017/09/donate-monero-black.png" alt="Support" height="50" width="200">
+    <img src="https://web.getmonero.org/press-kit/logos/monero-logo-symbol-on-white-480.png" alt="Support" height="50" width="200">
   </a>
 </p>
 
